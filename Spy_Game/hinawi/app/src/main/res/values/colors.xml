@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FF000000</color>
+    <color name="purple_500">#FF000000</color>
+    <color name="purple_700">#FF000000</color>
+    <color name="teal_200">#FF000000</color>
+    <color name="teal_700">#FF000000</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="color1">#34000000</color>
+    <color name="none">#00000000</color>
+    <color name="color2">#A2D1E3</color>
+    <color name="color3">#C1C1E2F4</color>
+    <color name="color4">#CBCBCB</color>
+    <color name="colorInHome">#D6434C</color>
+    <color name="valid">#DAB2141B</color>
+    <color name="notValid">#2AB2141B</color>
+    <color name="CardsBackground">#D3000000</color>
+    <color name="lastCardButtonColor">#32000000</color>
+    <color name="cardBackground">#2B2B2B</color>
+</resources>

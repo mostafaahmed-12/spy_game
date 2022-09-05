@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_png"
+
+
+    android:scaleType="fitStart"
+    tools:context=".MainActivity">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#A3000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        app:layout_constraintVertical_bias="1.0">
+
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="81dp"
+            android:layout_height="130dp"
+            android:tint="#4800C1FF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.56"
+            app:srcCompat="@drawable/spy9__" />
+
+        <ImageButton
+            android:id="@+id/audioPlay_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:background="@color/color1"
+            android:clickable="true"
+            android:tint="@color/color2"
+            android:visibility="invisible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@android:drawable/ic_lock_silent_mode_off" />
+
+        <ImageView
+            android:id="@+id/audioPause_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:background="@color/none"
+            android:clickable="true"
+            android:tint="@color/color2"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@android:drawable/ic_lock_silent_mode" />
+
+        <ImageView
+            android:id="@+id/log_id"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+
+            android:clickable="true"
+            android:outlineAmbientShadowColor="#BBB"
+            android:tint="@color/color2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.476"
+            app:srcCompat="@android:drawable/ic_lock_power_off" />
+
+        <ImageButton
+            android:id="@+id/info_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+
+            android:background="@color/none"
+            android:clickable="true"
+            android:tint="@color/color2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@android:drawable/ic_menu_help" />
+
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="160dp"
+            android:layout_height="100dp"
+            android:tint="@color/color2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.717"
+            app:srcCompat="@drawable/spy_game_5123bc7639324" />
+
+        <TextView
+            android:id="@+id/rules_id"
+            android:layout_width="289dp"
+            android:layout_height="540dp"
+            android:background="#EB0C0C0C"
+            android:clickable="true"
+            android:text="\n\n\n\n\nEach player except one gets a card with a location and does not know who the spy is.\n\n One of the players gets a spy card and does not know the location. \n\n Until the time expires, players take turns asking each other questions,\n\n trying to find the spy. The spy tries to stay undetected or guess the location."
+            android:textAlignment="center"
+            android:textColor="@color/color2"
+            android:textSize="18sp"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.654"
+            tools:visibility="gone" />
+
+    </android.support.constraint.ConstraintLayout>
+
+
+</android.support.constraint.ConstraintLayout>

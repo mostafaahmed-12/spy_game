@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_png"
+    tools:context=".HomeActivity">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#B7000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <Button
+            android:id="@+id/timerMinus_id"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="44dp"
+            android:layout_marginTop="4dp"
+            android:background="@color/color2"
+            android:text="-"
+            android:textSize="30dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:tint="@color/color2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.699"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.095"
+            app:srcCompat="@drawable/spy_game_5123bc7639324" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="90dp"
+            android:layout_height="80dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.38"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.104"
+            app:srcCompat="@drawable/logo_1" />
+
+        <Button
+            android:id="@+id/spiesMinus_id"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="44dp"
+            android:layout_marginTop="4dp"
+            android:background="@color/color2"
+            android:text="-"
+            android:textSize="30dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+        <Button
+            android:id="@+id/spiesPlus_id"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="4dp"
+            android:background="#238D9BA3"
+            android:text="+"
+            android:textColor="#7194A3"
+            android:textSize="30dp"
+            app:layout_constraintEnd_toStartOf="@+id/numOfSpies_id"
+            app:layout_constraintHorizontal_bias="0.03"
+            app:layout_constraintStart_toEndOf="@+id/spiesMinus_id"
+            app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+        <Button
+            android:id="@+id/timerPlus_id"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="4dp"
+            android:background="#238D9BA3"
+            android:text="+"
+            android:textColor="#7194A3"
+            android:textSize="30dp"
+            app:layout_constraintEnd_toStartOf="@+id/timer_id"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/timerMinus_id"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <Button
+            android:id="@+id/playersMinus_id"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="44dp"
+            android:layout_marginTop="4dp"
+            android:background="@color/color2"
+            android:text="-"
+            android:textSize="30dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+        <TextView
+            android:id="@+id/numOfPlayers_id"
+            android:layout_width="122dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="4dp"
+            android:background="@color/none"
+            android:text="3"
+            android:textAlignment="center"
+            android:textColor="@color/color2"
+            android:textSize="38dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.346" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Number of spies"
+            android:textColor="@color/colorInHome"
+            android:textSize="27dp"
+            android:textStyle="italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.218"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.426" />
+
+        <Button
+            android:id="@+id/playersPlus_id"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="4dp"
+            android:background="#238D9BA3"
+            android:text="+"
+            android:textColor="#7893A1"
+            android:textSize="30dp"
+            app:layout_constraintEnd_toStartOf="@+id/numOfPlayers_id"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/playersMinus_id"
+            app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Number of players"
+            android:textColor="@color/colorInHome"
+            android:textSize="27dp"
+            android:textStyle="italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.244"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.29" />
+
+        <Button
+            android:id="@+id/start_btn_id"
+            android:layout_width="416dp"
+            android:layout_height="0dp"
+            android:background="@color/notValid"
+            android:text="Start"
+            android:textColor="@color/color2"
+            android:textSize="28dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.6"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/numOfSpies_id"
+            android:layout_width="122dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="4dp"
+            android:background="@color/none"
+            android:text="1"
+            android:textAlignment="center"
+            android:textColor="@color/color2"
+            android:textSize="38dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/numOfPlayers_id"
+            app:layout_constraintVertical_bias="0.125" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="168dp"
+            android:layout_height="39dp"
+            android:text="Time"
+            android:textColor="@color/colorInHome"
+            android:textSize="27dp"
+            android:textStyle="italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.195"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.564" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="168dp"
+            android:layout_height="39dp"
+            android:text="Categories"
+            android:textColor="@color/colorInHome"
+            android:textSize="27dp"
+            android:textStyle="italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.195"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.701" />
+
+        <TextView
+            android:id="@+id/timer_id"
+            android:layout_width="122dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="4dp"
+            android:background="@color/none"
+            android:text="1"
+            android:textAlignment="center"
+            android:textColor="@color/color2"
+            android:textSize="38dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/numOfSpies_id"
+            app:layout_constraintVertical_bias="0.174" />
+
+        <CheckBox
+            android:id="@+id/checkBox1_id"
+            android:layout_width="110dp"
+            android:layout_height="27dp"
+            android:buttonTint="@color/colorInHome"
+            android:checked="false"
+            android:text="Countries"
+            android:textColor="@color/color2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.239"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+        <CheckBox
+            android:id="@+id/checkBox2_id"
+            android:layout_width="110dp"
+            android:layout_height="27dp"
+            android:buttonTint="@color/colorInHome"
+            android:checked="false"
+            android:text="Places"
+            android:textColor="@color/color2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.239"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/checkBox1_id" />
+
+        <CheckBox
+            android:id="@+id/checkBox4_id"
+            android:layout_width="110dp"
+            android:layout_height="27dp"
+            android:buttonTint="@color/colorInHome"
+            android:checked="false"
+            android:text="Geography"
+            android:textColor="@color/color2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.239"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/checkBox3_id" />
+
+        <CheckBox
+            android:id="@+id/checkBox3_id"
+            android:layout_width="110dp"
+            android:layout_height="27dp"
+            android:buttonTint="@color/colorInHome"
+            android:checked="false"
+            android:text="Objects"
+            android:textColor="@color/color2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.239"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/checkBox2_id" />
+
+
+        <ImageView
+            android:id="@+id/homeBackToMain_imgView_id"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:tint="@color/color2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="?attr/actionModeCloseDrawable" />
+
+        <ImageButton
+            android:id="@+id/homeAudioPlay_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="#00000000"
+            android:clickable="true"
+            android:tint="@color/color2"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@android:drawable/ic_lock_silent_mode_off" />
+
+        <ImageView
+            android:id="@+id/homeAudioPause_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="#00000000"
+            android:clickable="true"
+
+            android:tint="@color/color2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@android:drawable/ic_lock_silent_mode" />
+    </android.support.constraint.ConstraintLayout>
+</android.support.constraint.ConstraintLayout>
